@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    distDir: 'publish',
+    // output: 'export',
+    // distDir: 'publish',
     cleanDistDir: true,
     dir: "./app/",
-    assetPrefix: ".",
+    // assetPrefix: ".",
     productionBrowserSourceMaps: true,
     reactStrictMode: true,
     webpack: (config, options) => {
