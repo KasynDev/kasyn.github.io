@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // output: 'export',
-    // distDir: 'publish',
-    cleanDistDir: true,
-    dir: "./app/",
-    // assetPrefix: ".",
-    productionBrowserSourceMaps: true,
     reactStrictMode: true,
+    productionBrowserSourceMaps: true,
+    assetPrefix: "",
     webpack: (config, options) => {
         config.experiments = {
             asyncWebAssembly: true,
