@@ -22,12 +22,12 @@ const En: NextPage<{ serverSideData: any }, any> = ({ serverSideData }: { server
                 <UserInfo />
             </div>
             <div className="right-pannel w-3/4 h-full py-6 bg-white px-2">
-                <Works />
-                <Experience />
                 <Education />
-                <Skills />
+                <Experience />
                 <Projects />
-                <Tools />
+                <Works />
+                <Skills />
+                {/*<Tools />*/}
             </div>
         </div>
     )

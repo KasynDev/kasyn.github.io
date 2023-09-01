@@ -76,6 +76,10 @@ const BasicInfoBlock = ({ basicInfo }: { basicInfo: typeof userInfo.data.basicIn
                     </div>
                 </div>
             </div>
+
+            <div className="self-stretch text-violet-500 text-sm font-medium leading-none tracking-tight mt-2">
+                <a href="https://zh"> 中文 </a> |<a href="https://en"> EN </a>
+            </div>
         </div>
     )
 }

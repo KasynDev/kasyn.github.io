@@ -1,8 +1,8 @@
-import works from '../api/mockinfo/works'
+import blogs from '../api/mockinfo/blogs'
 import { map as _map, isEmpty as _isEmpty, chunk as _chunk } from 'lodash'
 
 const Works = () => {
-    const { data, title } = works || {}
+    const { data, title } = blogs || {}
     const displayList = _isEmpty(data) ? [] : _chunk(data, 2)
     return (
         <div className="works-module">

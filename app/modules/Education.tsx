@@ -12,7 +12,7 @@ const Education = () => {
                 </div>
                 <div className="self-stretch flex-col justify-start items-start pt-2 flex pb-2">
                     {_map(data, (eduItem, index) => {
-                        const { school, schoolFull, startDate, college, graduationDate, logo, major, minor, degree } =
+                        const { school, schoolFull, startDate, college, graduationDate, logo, major, degree } =
                             eduItem || {}
                         const isPresent = isNaN(graduationDate as any)
                         return (
@@ -44,7 +44,8 @@ const Education = () => {
                                                 isPresent ? 'text-violet-500 rounded-3xl' : 'text-slate-500'
                                             } text-xs font-normal leading-3 tracking-tight`}
                                         >
-                                            Sep 2010 - Jul 2013
+                                            {/*Sep 2010 - Jul 2013*/}
+                                            {startDate} - {graduationDate}
                                         </div>
                                     </div>
                                     <div className="justify-center items-center gap-1 inline-flex">

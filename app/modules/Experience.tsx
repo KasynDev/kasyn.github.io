@@ -39,7 +39,7 @@ const Experience = () => {
                                     <div className=" min-w-[10rem] text-xs">
                                         <div className="">
                                             <div className="text-slate-600 text-xs font-normal tracking-tight float-left">
-                                                Sep 2010 - Jul 2013
+                                                {hireDate} - {lastDay}
                                             </div>
                                             {city ? (
                                                 <div className="float-right ml-2">

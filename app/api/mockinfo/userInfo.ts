@@ -1,75 +1,49 @@
 export default {
     data: {
         basicInfo: {
-            name: 'Erik L',
-            career: 'Full-Stack Developer',
+            name: 'Kaisheng Wang',
+            career: 'Software Developer',
             avatar: './user/avatar.jpg', // 头像
             snapshot: '', // 生活照
-            bio: 'All work and no play makes Jack a dull boy.',
+            bio: 'After all this time? Always.',
         },
         contactInfo: {
-            email: 'youremail@internet.com',
-            website: 'https://github.com/loo-y',
-            phone: '13600000000',
-            countryCode: '86',
-            city: 'Shanghai',
+            email: 'kwang024@e.ntu.edu.sg',
+            website: 'https://kasyn.one',
+            phone: '80676332',
+            countryCode: '65',
+            city: 'Singapore',
         },
         socials: [
             {
                 social: 'github',
-                account: '@loo-y',
-                link: 'https://github.com/loo-y',
+                account: '@KasynDev',
+                link: 'https://github.com/KasynDev',
             },
             {
                 social: 'wechat',
-                account: '@yourwechat',
+                account: '@wechat_code',
                 qrcode: './user/wechat_qrcode.jpg',
-            },
-            {
-                social: 'weibo',
-                account: '@yourweibo',
-                link: 'https://weibo.com/youraccount',
-            },
-            {
-                social: 'bilibili',
-                account: '@yourbilibili',
-                link: 'https://bilibili.com/youraccount',
             },
             {
                 social: 'linkedin',
                 account: '@yourlinkedin',
                 link: 'https://linkedin.com/youraccount',
             },
-            {
-                social: 'xiaohongshu',
-                account: '@yourxiaohongshu',
-                link: 'https://xiaohongshu.com/youraccount',
-            },
-            {
-                social: 'instagram',
-                account: '@yourinstagram',
-                link: 'https://instagram.com/youraccount',
-            },
-            {
-                social: 'twitter',
-                account: '@yourtwitter',
-                link: 'https://twitter.com/youraccount',
-            },
         ],
         languages: [
             { language: 'Chinese', level: 'native' },
             { language: 'English', level: 'Fluent' },
-            { language: 'German', level: 'Proficient' },
-            { language: 'Cantonese', level: 'Intermediate' },
-            { language: 'French', level: 'Beginner' },
+            // { language: 'Teochew', level: 'Proficient' },
+            { language: 'Cantonese', level: 'Beginner' },
         ],
         hobbies: [
-            { hobby: 'Gaming', type: 'game' },
-            { hobby: 'Travelling', type: 'travel' },
-            { hobby: 'Photography', type: 'photography' },
-            { hobby: 'Badminton', type: 'badminton' },
             { hobby: 'Coding', type: 'coding' },
-            { hobby: 'Design', type: 'design' },
+            { hobby: 'Gaming', type: 'game' },
+            // { hobby: 'Travelling', type: 'travel' },
+            // { hobby: 'Photography', type: 'photography' },
+            { hobby: 'Badminton', type: 'badminton' },
+            // { hobby: 'Design', type: 'design' },
             { hobby: 'Music', type: 'music' },
         ],
     },
